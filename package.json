@@ -1,0 +1,18 @@
+{
+  "name": "Kristian Garza-11ty",
+  "version": "1.0.0",
+  "description": "Kristian Garza Portfolio - Built with 11ty",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "watch": "eleventy --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["eleventy", "portfolio", "design", "static-site"],
+  "author": "Kristian Garza",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

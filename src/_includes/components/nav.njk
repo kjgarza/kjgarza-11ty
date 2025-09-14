@@ -1,0 +1,30 @@
+<nav class="align-center top-0 z-1 flex min-h-[88px] w-full max-w-4xl flex-row items-center justify-between gap-4 bg-linear-to-t from-white/0 from-0% to-white to-10% px-4 pt-4 pb-8 text-sm font-medium sm:sticky sm:to-25% md:px-12 xl:px-8">
+  <div class="flex min-h-[40px] items-center gap-4">
+    {% if layout == "layouts/case-study.njk" %}
+    <!-- Case Study Back Button -->
+    <button onclick="history.back()" class="before:block: before:rounded-lg before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 inline-flex gap-3 relative items-center justify-center whitespace-nowrap rounded-lg text-base font-medium ring-offset-white disabled:pointer-events-none disabled:bg-neutral-100 disabled:text-neutral-500 disabled:shadow-none active:transform active:scale-[99%] active:transition-transform active:duration-75 active:ease-in-out hover:cursor-pointer text-neutral-900 hover:before:bg-special-state-hover h-10 w-10">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left">
+        <path d="m12 19-7-7 7-7"></path>
+        <path d="M19 12H5"></path>
+      </svg>
+    </button>
+    {% endif %}
+    
+    <div class="flex flex-col font-mono lg:flex-row lg:gap-2">
+      <a class="text-secondary hover:text-primary" href="/">{{ site.author.name }}</a>
+      <span class="text-secondary hidden lg:inline">—</span>
+      {% if layout == "layouts/case-study.njk" %}
+      <span class="text-primary">/ Case study</span>
+      {% else %}
+      <span class="text-secondary">Product Designer</span>
+      {% endif %}
+    </div>
+  </div>
+  <div class="flex items-center gap-1">
+    {% for item in navigation %}
+    <a class="text-secondary hover:text-primary rounded-lg p-2 transition-colors duration-200 ease-in-out {% if page.url == item.href %}text-primary{% endif %}" href="{{ item.href }}">
+      {{ item.name }}
+    </a>
+    {% endfor %}
+  </div>
+</nav>
