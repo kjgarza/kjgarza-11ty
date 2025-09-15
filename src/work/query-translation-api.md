@@ -5,16 +5,16 @@ description: Architected and launched "ScarletLilyBeetle" - a FastAPI microservi
 company: Digital Science
 tags: 
   - API Development
-  - Machine Learning
+  - Large Language Models
   - Backend Engineering
-heroImage: https://i.imgur.com/placeholder-api.png
+heroImage: /assets/images/nl2query-hero.png
 permalink: /work/query-translation-api/
 passwordProtected: true
 ---
 
 ## Overview
 
-The Query Translation API (codenamed "ScarletLilyBeetle") is an innovative solution designed to bridge the gap between natural language user queries and structured database queries for the Dimensions database system. This service allows users to interact with complex research data using natural language, significantly improving accessibility and usability of research information systems.
+The Query Translation API is an innovative solution designed to bridge the gap between natural language user queries and structured database queries for the [Dimensions database system](https://www.digital-science.com/blog/2024/11/new-ai-based-natural-language-feature-in-dimensions/). This service allows users to interact with complex research data using natural language, significantly improving accessibility and usability of research information systems.
 
 Researchers and data analysts often struggle with formulating complex database queries to find relevant publications, grants, clinical trials, and patents in the Dimensions database. The traditional approach requires knowledge of specific query syntax and familiarity with the underlying data schema, creating a high barrier to entry for many users.
 

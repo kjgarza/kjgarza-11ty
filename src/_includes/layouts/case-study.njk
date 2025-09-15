@@ -30,10 +30,6 @@ layout: layouts/base.njk
     {% endif %}
   </div>
   
-  <!-- Case Study Content -->
-  <div class="prose prose-h1:text-2xl prose-h2:text-xl prose-h2:mb-2 prose-h3:mb-3 prose-p:mt-0 prose-p:mb-3 prose-h3:text-lg prose-a:text-accent prose-a:underline prose-ul:mt-0 prose-ul:mb-3 prose-li:mt-0 prose-li:mb-3 prose-p:text-base prose-img:my-3 px-4 font-medium sm:px-6">
-    {{ content | safe }}
-  </div>
 
   {% if passwordProtected %}
   <div class="to-white-16 -mt-24 flex w-full items-center justify-center bg-linear-to-t from-white from-80% to-100% pt-20">
@@ -51,5 +47,12 @@ layout: layouts/base.njk
       </div>
     </div>
   </div>
-  {% endif %}
+  {% else %}
+
+    <!-- Case Study Content -->
+    <div class="prose prose-h1:text-2xl prose-h2:text-xl prose-h2:mb-2 prose-h3:mb-3 prose-p:mt-0 prose-p:mb-3 prose-h3:text-lg prose-a:text-accent prose-a:underline prose-ul:mt-0 prose-ul:mb-3 prose-li:mt-0 prose-li:mb-3 prose-p:text-base prose-img:my-3 px-4 font-medium sm:px-6">
+        {{ content | safe }}
+    </div>
+    {% endif %}
 </div>
+
