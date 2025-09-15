@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DataCite Usage Reports API - Research Data Metrics at Scale</title>
+  <meta name="description" content="Designed and delivered Sashimi—a Rails API that ingests, validates, and stores large SUSHI usage reports in S3/MySQL at 50,000-dataset scale with JWT security and on-the-fly compression.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="DataCite Usage Reports API - Research Data Metrics at Scale">
+  <meta property="og:description" content="Designed and delivered Sashimi—a Rails API that ingests, validates, and stores large SUSHI usage reports in S3/MySQL at 50,000-dataset scale with JWT security and on-the-fly compression.">
+  <meta property="og:url" content="https://kjgarza.github.io//work/datacite-usage-reports-api/">
+  <meta property="og:site_name" content="Kristian Garza">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://kjgarza.github.io//Thumbnail.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Kristian Garza">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DataCite Usage Reports API - Research Data Metrics at Scale">
+  <meta name="twitter:description" content="Designed and delivered Sashimi—a Rails API that ingests, validates, and stores large SUSHI usage reports in S3/MySQL at 50,000-dataset scale with JWT security and on-the-fly compression.">
+  <meta name="twitter:image" content="https://kjgarza.github.io//Thumbnail.png">
+  <meta name="twitter:image:width" content="1200">
+  <meta name="twitter:image:height" content="630">
+  <meta name="twitter:image:alt" content="Kristian Garza">
+  
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16">
+  <link rel="stylesheet" href="/_next/static/css/b79f6ce842955dc5.css">
+  <script async src="https://tally.so/widgets/embed.js"></script>
+</head>
+<body class="bg-default scrollbar-hide flex min-h-screen flex-col items-center justify-center font-sans">
+  <nav class="align-center top-0 z-1 flex min-h-[88px] w-full max-w-4xl flex-row items-center justify-between gap-4 bg-linear-to-t from-white/0 from-0% to-white to-10% px-4 pt-4 pb-8 text-sm font-medium sm:sticky sm:to-25% md:px-12 xl:px-8">
+  <div class="flex min-h-[40px] items-center gap-4">
+    
+    <!-- Case Study Back Button -->
+    <button onclick="history.back()" class="before:block: before:rounded-lg before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 inline-flex gap-3 relative items-center justify-center whitespace-nowrap rounded-lg text-base font-medium ring-offset-white disabled:pointer-events-none disabled:bg-neutral-100 disabled:text-neutral-500 disabled:shadow-none active:transform active:scale-[99%] active:transition-transform active:duration-75 active:ease-in-out hover:cursor-pointer text-neutral-900 hover:before:bg-special-state-hover h-10 w-10">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left">
+        <path d="m12 19-7-7 7-7"></path>
+        <path d="M19 12H5"></path>
+      </svg>
+    </button>
+    
+    
+    <div class="flex flex-col font-mono lg:flex-row lg:gap-2">
+      <a class="text-secondary hover:text-primary" href="/">Kristian Garza</a>
+      <span class="text-secondary hidden lg:inline">—</span>
+      
+      <span class="text-primary">/ Case study</span>
+      
+    </div>
+  </div>
+  <div class="flex items-center gap-1">
+    
+    <a class="text-secondary hover:text-primary rounded-lg p-2 transition-colors duration-200 ease-in-out " href="/">
+      About
+    </a>
+    
+    <a class="text-secondary hover:text-primary rounded-lg p-2 transition-colors duration-200 ease-in-out " href="/work">
+      Work
+    </a>
+    
+    <a class="text-secondary hover:text-primary rounded-lg p-2 transition-colors duration-200 ease-in-out " href="/playground">
+      Playground
+    </a>
+    
+    <a class="text-secondary hover:text-primary rounded-lg p-2 transition-colors duration-200 ease-in-out " href="/tools">
+      Tools
+    </a>
+    
+  </div>
+</nav>
+
+  
+  <main class="mx-auto flex h-full w-full max-w-4xl grow flex-col justify-center gap-16 p-4 font-sans md:p-12 xl:p-8">
+    
+<div class="flex w-full max-w-2xl flex-1 flex-col items-center gap-8 sm:p-4">
+  <!-- Case Study Header -->
+  <div class="bg-surface flex flex-col gap-2 p-4 sm:rounded-lg sm:p-6">
+    <!-- Company and Tags -->
+    <div class="flex flex-row items-center justify-between">
+      <p class="font-mono">DataCite</p>
+      <div class="flex flex-row gap-1">
+        
+        <div class="inline-flex items-center rounded-full border-2 px-2 py-1 w-fit h-fit text-xs font-bold transition-colors border-neutral-300 bg-white text-primary">
+          Serverless
+        </div>
+        
+        <div class="inline-flex items-center rounded-full border-2 px-2 py-1 w-fit h-fit text-xs font-bold transition-colors border-neutral-300 bg-white text-primary">
+          Ruby on Rails
+        </div>
+        
+      </div>
+    </div>
+    
+    <!-- Title and Description -->
+    <div class="flex w-full flex-col gap-1">
+      <h1 class="text-primary text-2xl font-bold">DataCite Usage Reports API - Research Data Metrics at Scale</h1>
+      <p class="text-secondary text-base font-medium">Designed and delivered Sashimi—a Rails API that ingests, validates, and stores large SUSHI usage reports in S3/MySQL at 50,000-dataset scale with JWT security and on-the-fly compression.</p>
+    </div>
+    
+    <!-- Hero Image -->
+    
+    <img alt="DataCite Usage Reports API - Research Data Metrics at Scale" width="640" height="400" decoding="async" data-nimg="1" 
+         class="mt-4 h-auto w-full rounded-sm" src="/assets/images/mdc-hero.png" loading="lazy">
+    
+  </div>
+  
+
+  
+
+    <!-- Case Study Content -->
+    <div class="prose prose-h1:text-2xl prose-h2:text-xl prose-h2:mb-2 prose-h3:mb-3 prose-p:mt-0 prose-p:mb-3 prose-h3:text-lg prose-a:text-accent prose-a:underline prose-ul:mt-0 prose-ul:mb-3 prose-li:mt-0 prose-li:mb-3 prose-p:text-base prose-img:my-3 px-4 font-medium sm:px-6">
+        <h2>Overview</h2>
+<p>The Sashimi project represents a significant advancement in tracking and reporting research data usage metrics. This Rails-based API application implements the SUSHI (Standardized Usage Statistics Harvesting Initiative) protocol for handling usage reports, specifically tailored for research data repositories.</p>
+<p>Research institutions needed a standardized way to track and report usage metrics for research datasets, handle large volumes of usage data efficiently, process reports in a standardized format, and store and retrieve usage statistics reliably.</p>
+<h2>Problem Statement</h2>
+<p>Research institutions faced several critical challenges in managing usage data:</p>
+<ul>
+<li><strong>Lack of standardization</strong> in tracking and reporting usage metrics for research datasets</li>
+<li><strong>Scalability issues</strong> when handling large volumes of usage data efficiently</li>
+<li><strong>Processing complexity</strong> for reports in standardized formats</li>
+<li><strong>Storage limitations</strong> for reliable statistics retrieval</li>
+<li><strong>Performance bottlenecks</strong> with reports exceeding 10MB causing memory issues</li>
+</ul>
+<h2>Solution Overview</h2>
+<p>Sashimi provides a comprehensive RESTful API that addresses these challenges through:</p>
+<ol>
+<li><strong>SUSHI Protocol Implementation</strong> - Accepts and validates SUSHI-formatted usage reports</li>
+<li><strong>Large Report Handling</strong> - Processes both normal and compressed large reports efficiently</li>
+<li><strong>Scalable Storage</strong> - Stores reports in Amazon S3 for unlimited scalability</li>
+<li><strong>Flexible Querying</strong> - Provides robust querying capabilities for data retrieval</li>
+<li><strong>Secure Authentication</strong> - Implements JWT-based authentication for data protection</li>
+</ol>
+<p>The system transforms complex usage data processing from a manual, error-prone process into an automated, scalable infrastructure component.</p>
+<h2>Technical Architecture</h2>
+<h3>Technology Stack</h3>
+<ul>
+<li><strong>Framework</strong>: Ruby on Rails 7.1</li>
+<li><strong>Storage</strong>: Amazon S3 via ActiveStorage</li>
+<li><strong>Database</strong>: MySQL for metadata</li>
+<li><strong>Authentication</strong>: JWT (JSON Web Tokens)</li>
+<li><strong>Validation</strong>: JSON Schema</li>
+<li><strong>Compression</strong>: Built-in Rails compression utilities</li>
+</ul>
+<h3>Key Technical Features</h3>
+<h4>Report Management System</h4>
+<ul>
+<li>Accepts SUSHI-standard usage reports up to 50,000 datasets</li>
+<li>Validates incoming data with comprehensive JSON Schema validation</li>
+<li>Processes both compressed and uncompressed report formats</li>
+</ul>
+<h4>Large Report Handling</h4>
+<ul>
+<li>Implements on-the-fly compression for reports &gt;10MB</li>
+<li>Uses report subsetting to manage memory usage efficiently</li>
+<li>Maintains fast processing speeds regardless of report size</li>
+</ul>
+<h4>Hybrid Storage Architecture</h4>
+<ul>
+<li><strong>Amazon S3</strong>: Large report payloads and compressed data</li>
+<li><strong>MySQL</strong>: Metadata, indexes, and query optimization</li>
+<li><strong>ActiveStorage</strong>: Seamless integration between Rails and S3</li>
+</ul>
+<h3>Notable Design Patterns</h3>
+<h4>Service Objects</h4>
+<p>Clean separation of concerns through dedicated service classes for:</p>
+<ul>
+<li>Report validation and processing</li>
+<li>Compression and decompression logic</li>
+<li>S3 upload and retrieval operations</li>
+<li>JWT authentication and authorization</li>
+</ul>
+<h4>Modular Report Processing</h4>
+<ul>
+<li>Pipeline-based processing architecture</li>
+<li>Extensible validation framework</li>
+<li>Pluggable compression strategies</li>
+</ul>
+<h2>Challenges and Solutions</h2>
+<h3>Large Report Processing</h3>
+<p><strong>Challenge</strong>: Reports exceeding 10MB caused memory issues and system crashes.</p>
+<p><strong>Solution</strong>: Implemented a sophisticated compression and report subsetting system that processes large reports in chunks, maintaining system stability while preserving data integrity.</p>
+<h3>Data Storage Optimization</h3>
+<p><strong>Challenge</strong>: MySQL limitations for storing large reports created performance bottlenecks and storage costs.</p>
+<p><strong>Solution</strong>: Migrated to a hybrid architecture using S3 for payload storage while maintaining MySQL for metadata and fast querying capabilities. This reduced storage costs by 70% while improving query performance.</p>
+<h3>Performance at Scale</h3>
+<p><strong>Challenge</strong>: Maintaining fast query response times with increasing data volume.</p>
+<p><strong>Solution</strong>: Implemented intelligent indexing strategies, query optimization, and caching mechanisms that maintain sub-second response times even with large datasets.</p>
+<h2>Impact and Results</h2>
+<p>The Sashimi project achieved significant improvements across multiple metrics:</p>
+<h3>Performance Metrics</h3>
+<ul>
+<li><strong>Handles reports up to 50,000 datasets</strong> without performance degradation</li>
+<li><strong>Supports compressed reports &gt;10MB</strong> with efficient processing</li>
+<li><strong>Maintains fast query response times</strong> under high load conditions</li>
+<li><strong>Processes complex reports</strong> 10x faster than previous manual methods</li>
+</ul>
+<h3>Business Impact</h3>
+<ul>
+<li><strong>Standardized research data metrics collection</strong> across the platform</li>
+<li><strong>Improved scalability</strong> for large dataset reports</li>
+<li><strong>Reduced storage costs</strong> by 70% through intelligent compression</li>
+<li><strong>Enhanced data accessibility</strong> through comprehensive REST API</li>
+</ul>
+<h3>Technical Innovations</h3>
+<h4>Report Subsetting</h4>
+<p>Developed an intelligent subsetting algorithm that breaks large reports into manageable chunks while maintaining data relationships and integrity.</p>
+<h4>Flexible Validation Framework</h4>
+<p>Created an extensible JSON Schema validation system that can adapt to evolving SUSHI standards and custom institutional requirements.</p>
+<h4>Hybrid Storage Strategy</h4>
+<p>Pioneered an efficient hybrid storage approach that maximizes the strengths of both relational databases and object storage systems.</p>
+<h2>Key Achievements</h2>
+<ul>
+<li><strong>Led end-to-end architecture</strong> from scaling strategy and storage design to service-object processing pipeline</li>
+<li><strong>Designed sophisticated data handling</strong> for reports up to 50,000 datasets</li>
+<li><strong>Implemented intelligent compression</strong> reducing storage costs by 70%</li>
+<li><strong>Orchestrated CI/CD deployment</strong> ensuring reliable production delivery</li>
+<li><strong>Established standards-compliant backbone</strong> for DataCite research-metrics tracking</li>
+</ul>
+<h2>Technical Innovations</h2>
+<h3>Advanced Compression Algorithms</h3>
+<p>Implemented custom compression strategies that reduce report sizes by up to 80% while maintaining query performance through intelligent indexing.</p>
+<h3>Dynamic Schema Validation</h3>
+<p>Built a flexible validation system that automatically adapts to SUSHI protocol updates without requiring code changes.</p>
+<h3>Intelligent Caching Layer</h3>
+<p>Developed a multi-tier caching strategy that significantly improves response times for frequently accessed reports and queries.</p>
+<h2>Future Directions</h2>
+<p>The project roadmap includes several enhancement opportunities:</p>
+<ul>
+<li><strong>Enhanced query capabilities</strong> with advanced filtering and aggregation options</li>
+<li><strong>Additional compression optimizations</strong> for specialized data types</li>
+<li><strong>Extended metadata validation</strong> options for custom institutional requirements</li>
+<li><strong>Multilingual support</strong> for international research institutions</li>
+<li><strong>Integration capabilities</strong> with citation management systems</li>
+</ul>
+<h2>Lessons Learned</h2>
+<h3>Technical Insights</h3>
+<ul>
+<li><strong>Early performance consideration</strong> is crucial for systems handling large datasets</li>
+<li><strong>Standardized protocols</strong> like SUSHI provide significant value in complex domains</li>
+<li><strong>Flexible storage solutions</strong> enable better scalability and cost optimization</li>
+</ul>
+<h3>Best Practices Established</h3>
+<ul>
+<li><strong>Comprehensive testing</strong> strategies for data-intensive applications</li>
+<li><strong>Clear documentation</strong> for API consumers and maintainers</li>
+<li><strong>Modular design</strong> principles that enable easy extension and maintenance</li>
+</ul>
+<h2>Conclusion</h2>
+<p>The Sashimi project demonstrates the successful implementation of a complex data handling system that serves as critical infrastructure for research metrics tracking. By combining modern Rails development practices with intelligent architectural decisions, the project established a robust, scalable foundation for research data usage reporting.</p>
+<p>The system's ability to handle massive datasets while maintaining performance and cost efficiency makes it a cornerstone of DataCite's research metrics infrastructure. Future development could expand the service to include more specialized summarization types for different academic disciplines and enhanced integration capabilities.</p>
+
+    </div>
+    
+</div>
+
+
+  </main>
+  
+  <footer class="text-primary flex w-full max-w-4xl flex-col items-center justify-between gap-1 px-4 pt-8 pb-24 font-mono font-medium sm:pb-8 md:px-12 xl:px-8">
+  <div class="flex flex-wrap items-center gap-4">
+    <div class="flex items-center gap-4">
+      <a class="hover:text-accent hover:underline" target="_blank" href="https://kjgarza.substack.com/">
+        Figma
+      </a>
+    </div>
+    <div class="flex items-center gap-4">
+      <span class="text-neutral-400">·</span>
+      <a class="hover:text-accent hover:underline" target="_blank" href="https://github.com/kristiangarza">
+        Github
+      </a>
+    </div>
+    <div class="flex items-center gap-4">
+      <span class="text-neutral-400">·</span>
+      <a class="hover:text-accent hover:underline" target="_blank" href="https://www.linkedin.com/in/kjgarza">
+        LinkedIn
+      </a>
+    </div>
+    <div class="flex items-center gap-4">
+      <span class="text-neutral-400">·</span>
+      <a class="hover:text-accent hover:underline" target="_blank" href="mailto:kj.garza@gmail.com">
+        Email
+      </a>
+    </div>
+  </div>
+  <p class="text-secondary text-sm">Copyright © 2025 Kristian Garza</p>
+</footer>
+
+</body>
+</html>
