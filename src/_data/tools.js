@@ -1,22 +1,22 @@
 module.exports = [
-//   {
-//     name: "Annotate design",
-//     description:
-//       "A plugin to quickly add annotations to your designs and speed your workflows",
-//     type: "Figma Plugin",
-//     image: "/tools/annotate.png",
-//     link: "https://www.figma.com/community/plugin/1190992260300542362/annotate-design",
-//     rotation: "-rotate-4",
-//   },
-//   {
-//     name: "Text Toolkit",
-//     description:
-//       "A handy plugin to easily help you with content editing and font swapping tasks",
-//     type: "Figma Plugin",
-//     image: "/assets/tools/textedit.png",
-//     link: "https://www.figma.com/community/plugin/1318622600987684855/text-toolkit-edit-content-swap-fonts",
-//     rotation: "rotate-4",
-//   },
+  //   {
+  //     name: "Annotate design",
+  //     description:
+  //       "A plugin to quickly add annotations to your designs and speed your workflows",
+  //     type: "Figma Plugin",
+  //     image: "/tools/annotate.png",
+  //     link: "https://www.figma.com/community/plugin/1190992260300542362/annotate-design",
+  //     rotation: "-rotate-4",
+  //   },
+  //   {
+  //     name: "Text Toolkit",
+  //     description:
+  //       "A handy plugin to easily help you with content editing and font swapping tasks",
+  //     type: "Figma Plugin",
+  //     image: "/assets/tools/textedit.png",
+  //     link: "https://www.figma.com/community/plugin/1318622600987684855/text-toolkit-edit-content-swap-fonts",
+  //     rotation: "rotate-4",
+  //   },
 
   {
     name: "Dataset Discovery Agent",
@@ -31,10 +31,19 @@ module.exports = [
     name: "Parrot GPT",
     description:
       "A Python toolkit that uses GPT-3/3.5 to translate, enrich, and cross-walk bibliographic metadata across schemas, with CLI and CI/CD support.",
-    type: "OpenAI",
+    type: "LLMs",
     image: "/assets/images/openai-icon.png",
     link: "https://github.com/kjgarza/parrot-gpt",
     rotation: "rotate-3",
+  },
+  {
+    name: "Election Program AI Analyser",
+    description:
+      "An AI-powered tool that simplifies 2025 Bundestag election programs, giving clear answers to voters’ policy questions in natural language.",
+    type: "OpenAI",
+    image: "/assets/images/bundes-icon.png",
+    link: "https://chatgpt.com/g/g-678bbfd0f3388191b253ef5725e242e0-bundestags-wahlnavigator-2025",
+    rotation: "rotate-5",
   },
   {
     name: "CrossFit WOD Viewer",

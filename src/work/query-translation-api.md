@@ -1,12 +1,12 @@
 ---
 layout: layouts/case-study.njk
 title: Query Translation API - Natural Language to Database Queries
-description: Architected and launched "ScarletLilyBeetle" - a FastAPI microservice that turns natural-language requests into optimized Dimensions searches via LLM entity extraction and pgvector semantic search.
+description: Architected and launched a FastAPI microservice that turns natural-language requests into optimized Dimensions searches via LLM entity extraction and pgvector semantic search.
 company: Digital Science
 tags: 
   - API Development
   - Large Language Models
-  - Backend Engineering
+  - Python
 heroImage: /assets/images/nl2query-hero.png
 permalink: /work/query-translation-api/
 passwordProtected: true

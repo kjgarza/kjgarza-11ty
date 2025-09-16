@@ -1,13 +1,14 @@
 ---
 layout: layouts/case-study.njk
-title: Creating a Design System
+title: Harmonizing with a Design System
 description: Crafted a Design System for all DataCite frontend services.
 company: DataCite
 tags: 
   - Design systems
-  - Product Design
+  - UX Design
 heroImage: https://i.imgur.com/htzskD7.png
 permalink: /work/creating-a-design-system/
+blogLink: https://doi.org/10.5438/tpah-aj25
 passwordProtected: false
 ---
 
@@ -91,4 +92,7 @@ While we are still in the implementation phase, our vision for the future is cle
 
 ---
 
-[Go to Blogpost](https://doi.org/10.5438/tpah-aj25)
+
+<button class="before:block: before:rounded-lg before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 inline-flex gap-3 relative items-center justify-center whitespace-nowrap rounded-lg text-base font-medium ring-offset-white disabled:-z-10 disabled:bg-neutral-100 disabled:text-neutral-500 disabled:shadow-none active:transform active:scale-[99%] active:transition-transform active:duration-75 active:ease-in-out hover:cursor-pointer w-fit hover:before:bg-special-state-hover-inverse bg-button-primary text-white shadow-button-primary-rest active:shadow-none h-10 px-3 min-w-9">
+    <a class="relative z-10" href="{{blogLink}}">Go to Blogpost</a>
+</button>

@@ -15,7 +15,7 @@ module.exports = [
   {
     id: "datacite-design-system",
     company: "DataCite",
-    title: "Creating a Design System",
+    title: "Harmonizing with a Design System",
     description: "Crafted a Design System for all DataCite frontend services.",
     tags: ["Design systems", "UX Design"],
     status: "published",
@@ -33,7 +33,7 @@ module.exports = [
       "Pioneering an alternative to existing data usage processing services through web tracker development.",
     tags: ["Product Design", "UX Research"],
     status: "published",
-    image: "/uploads/2022/02/19/designsprint-eosc Medium.png",
+    image: "/assets/images/designsprint-eosc-Medium.png",
     link: "/work/innovating-data-usage-processing-services",
     featured: true,
     gridClass: "col-span-1 row-span-1",

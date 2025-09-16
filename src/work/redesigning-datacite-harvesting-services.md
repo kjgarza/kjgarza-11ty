@@ -9,6 +9,7 @@ tags:
   - Service Design
 heroImage: https://i.imgur.com/Y8Jn1lP.png
 permalink: /work/redesigning-datacite-harvesting-services/
+blogLink: https://doi.org/10.5438/f03x-vr69
 passwordProtected: false
 ---
 
@@ -166,6 +167,6 @@ The DataCite Harvesting Services redesign project demonstrates the power of user
 
 The project successfully transformed an underutilized service into a viable revenue opportunity while better serving the research community's data harvesting needs. The tiered approach and technical improvements provide a sustainable foundation for future growth and service expansion.
 
-<button class="before:block: before:rounded-lg before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 inline-flex gap-3 relative items-center justify-center whitespace-nowrap rounded-lg text-base font-medium ring-offset-white disabled:pointer-events-none disabled:bg-neutral-100 disabled:text-neutral-500 disabled:shadow-none active:transform active:scale-[99%] active:transition-transform active:duration-75 active:ease-in-out hover:cursor-pointer w-fit hover:before:bg-special-state-hover-inverse bg-button-primary text-white shadow-button-primary-rest active:shadow-none h-10 px-3 min-w-9">
-    <a href="https://doi.org/10.5438/f03x-vr69">Go to Blogpost</a>
+<button class="before:block: before:rounded-lg before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 inline-flex gap-3 relative items-center justify-center whitespace-nowrap rounded-lg text-base font-medium ring-offset-white disabled:-z-10 disabled:bg-neutral-100 disabled:text-neutral-500 disabled:shadow-none active:transform active:scale-[99%] active:transition-transform active:duration-75 active:ease-in-out hover:cursor-pointer w-fit hover:before:bg-special-state-hover-inverse bg-button-primary text-white shadow-button-primary-rest active:shadow-none h-10 px-3 min-w-9">
+    <a class="relative z-10" href="{{blogLink}}">Go to Blogpost</a>
 </button>

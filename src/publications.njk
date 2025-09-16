@@ -1,0 +1,74 @@
+---
+layout: layouts/base.njk
+title: Publications
+permalink: /publications/
+---
+
+<div class="flex w-full max-w-4xl flex-1 flex-col gap-6 p-4 md:p-12 xl:p-8">
+  <div class="flex flex-col gap-2">
+    <h1 class="text-accent font-mono text-2xl font-bold">Publications</h1>
+    <p class="text-secondary text-lg">Research papers, articles, and presentations.</p>
+  </div>
+  
+  <section class="flex flex-col gap-6">
+    {% set currentYear = null %}
+    {% set sortedPublications = publications | sort(false, false, 'publicationYear') | reverse %}
+    {% for publication in sortedPublications %}
+      {% if publication.publicationYear != currentYear %}
+        {% set currentYear = publication.publicationYear %}
+        <div class="flex items-center gap-4 mt-6 first:mt-0">
+          <h2 class="text-primary font-mono text-xl font-bold">{{ currentYear }}</h2>
+          <div class="flex-1 h-px bg-card border-t"></div>
+        </div>
+      {% endif %}
+      
+      <article class="bg-surface border-card group relative rounded-2xl border-2 p-6 transition-all duration-200 hover:shadow-md hover:border-accent/20">
+        <div class="flex flex-col gap-3">
+          <h3 class="text-primary text-lg font-semibold leading-tight group-hover:text-accent transition-colors duration-200">
+            {{ publication.title }}
+          </h3>
+          
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="text-secondary text-sm font-medium">{{ publication.publicationYear }}</span>
+              {% if publication.id.includes('doi.org') %}
+                <span class="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium border-blue-200 bg-blue-50 text-blue-700">
+                  DOI
+                </span>
+              {% elif publication.id.includes('medium.com') %}
+                <span class="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium border-green-200 bg-green-50 text-green-700">
+                  Blog
+                </span>
+              {% elif publication.id.includes('zenodo.org') %}
+                <span class="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium border-purple-200 bg-purple-50 text-purple-700">
+                  Zenodo
+                </span>
+              {% else %}
+                <span class="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium border-neutral-200 bg-neutral-50 text-neutral-700">
+                  Article
+                </span>
+              {% endif %}
+            </div>
+            
+            <a 
+              href="{{ publication.id }}" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="relative z-10 inline-flex items-center gap-2 text-accent text-sm font-medium hover:text-primary transition-colors duration-200"
+            >
+              <span>Read</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15,3 21,3 21,9"></polyline>
+                <line x1="10" x2="21" y1="14" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Decorative hover element -->
+        <div class="absolute inset-0 -z-10 rounded-2xl bg-gradient-to-r from-accent/5 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+      </article>
+    {% endfor %}
+  </section>
+</div>

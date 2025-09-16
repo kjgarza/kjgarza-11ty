@@ -1,0 +1,107 @@
+module.exports = [
+  {
+    id: "https://doi.org/10.59350/skna9-1pb77",
+    title:
+      "The Impact of Language User Interfaces on Finding Scholarly Repositories",
+    publicationYear: 2023,
+  },
+  {
+    id: "https://doi.org/10.5438/tpah-aj25",
+    title: "DataCite Design System is ready to be worn.",
+    publicationYear: 2023,
+  },
+  {
+    id: "https://doi.org/10.5438/vwp0-vz05",
+    title:
+      "Breaking a Metadata Barrier: Improving discoverability with automatic subject classification",
+    publicationYear: 2023,
+  },
+  {
+    id: "https://medium.com/@kj.garza/parrotgpt-on-the-advantages-of-large-language-models-tools-for-academic-metadata-schema-mapping-434cceabc68b",
+    title:
+      "ParrotGPT: On the Advantages of Large Language Models Tools for Academic Metadata Schema Mapping",
+    publicationYear: 2023,
+  },
+  {
+    id: "https://medium.com/@kj.garza/academic-publishing-web-forms-meet-your-demise-the-unstoppable-rise-of-large-language-models-dbb1bd6c2ee8",
+    title:
+      "Academic Publishing web forms meet your demise: The unstoppable rise of large language models (ChatGPT)",
+    publicationYear: 2023,
+  },
+  {
+    id: "https://medium.com/@kj.garza/revolutionizing-metadata-schema-mapping-with-chatgpt-a8df54e41e24",
+    title: "Revolutionizing Metadata Schema Mapping with ChatGPT",
+    publicationYear: 2022,
+  },
+  {
+    id: "https://doi.org/10.5438/f03x-vr69",
+    title:
+      "Refining our Thinking: How we are improving DataCite design processes.",
+    publicationYear: 2022,
+  },
+  {
+    id: "https://doi.org/10.5281/zenodo.6090418",
+    title:
+      "D4.7 Tools for finding and selecting certified repositories for researchers and other stakeholders",
+    publicationYear: 2022,
+  },
+  {
+    id: "https://doi.org/10.5281/zenodo.6536701",
+    title: "2021 FAIR Island Annual Report",
+    publicationYear: 2022,
+  },
+  {
+    id: "https://doi.org/10.5281/zenodo.7308803",
+    title:
+      "The FAIR Island Project: Tracking the impact of field station research",
+    publicationYear: 2022,
+  },
+  {
+    id: "https://doi.org/10.5438/2nps-h961",
+    title:
+      "Open hours updates: Spring re-launch open hours for consortium leads",
+    publicationYear: 2021,
+  },
+  {
+    id: "https://doi.org/10.5281/zenodo.4487522",
+    title: "You shoulda put a PID on it: Leveraging the PID Graph for DMPs",
+    publicationYear: 2021,
+  },
+  {
+    id: "https://doi.org/10.5438/j4xv-y945",
+    title: "Are You There, Metadata? It’s Me, the Bibliometrician",
+    publicationYear: 2021,
+  },
+  {
+    id: "https://doi.org/10.14454/qgk4-zs88",
+    title: "Frontend for the DataCite Commons service",
+    publicationYear: 2020,
+  },
+  {
+    id: "https://doi.org/10.14454/w67k-5373",
+    title:
+      "maDMPs Machine Actionable Data Management Plans (maDMPs) demonstration.",
+    publicationYear: 2020,
+  },
+  {
+    id: "https://doi.org/10.5281/zenodo.3903381",
+    title: "New Research Work on COVID-19 as the pandemic develops",
+    publicationYear: 2020,
+  },
+  {
+    id: "https://doi.org/10.5438/v9pp-7a27",
+    title: "The DataCite MDC Stack",
+    publicationYear: 2020,
+  },
+  {
+    id: "https://doi.org/10.5281/zenodo.3895557",
+    title:
+      "A tale of two regions: Using Vega-Lite Population Pyramid to explore PIDs populations",
+    publicationYear: 2020,
+  },
+  {
+    id: "https://doi.org/10.5438/1843-k679",
+    title: "Datacite Citation Display: Unlocking Data Citations",
+    publicationYear: 2020,
+  },
+];
