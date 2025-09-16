@@ -8,7 +8,7 @@
     "dev": "eleventy --serve",
     "watch": "eleventy --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/kjgarza-11ty/"
+    "build-ghpages": "npx @11ty/eleventy"
   },
   "keywords": ["eleventy", "portfolio", "design", "static-site"],
   "author": "Kristian Garza",
