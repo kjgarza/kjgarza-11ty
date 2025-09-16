@@ -2,7 +2,7 @@ module.exports = [
   {
     id: "https://doi.org/10.59350/skna9-1pb77",
     title:
-      "The Impact of Language User Interfaces on Finding Scholarly Repositories",
+      "The Impact of Language User Interfaces on Finding Scholarly Repositories.",
     publicationYear: 2023,
   },
   {
