@@ -1,23 +1,4 @@
 module.exports = [
-  //   {
-  //     name: "Annotate design",
-  //     description:
-  //       "A plugin to quickly add annotations to your designs and speed your workflows",
-  //     type: "Figma Plugin",
-  //     image: "/tools/annotate.png",
-  //     link: "https://www.figma.com/community/plugin/1190992260300542362/annotate-design",
-  //     rotation: "-rotate-4",
-  //   },
-  //   {
-  //     name: "Text Toolkit",
-  //     description:
-  //       "A handy plugin to easily help you with content editing and font swapping tasks",
-  //     type: "Figma Plugin",
-  //     image: "/assets/tools/textedit.png",
-  //     link: "https://www.figma.com/community/plugin/1318622600987684855/text-toolkit-edit-content-swap-fonts",
-  //     rotation: "rotate-4",
-  //   },
-
   {
     name: "Dataset Discovery Agent",
     description:
